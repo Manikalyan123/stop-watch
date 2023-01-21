@@ -1,0 +1,59 @@
+/* Write CSS here */
+.Cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.button {
+  height: 29px;
+  width: 65px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}
+.contentCont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 40vh;
+  width: 30vw;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+}
+.buttonCont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: none;
+  margin: none;
+}
+#restart {
+  background-color: #eaa800;
+}
+#stop {
+  background-color: #ef0d36;
+}
+.Time {
+  font-size: 50px;
+  font-weight: bold;
+  padding: none;
+  margin: none;
+}
+.clockImg {
+  height: 40px;
+  width: 40px;
+  padding: none;
+  margin: none;
+}
+h1 {
+  font-size: 60px;
+  font-family: 'Roboto';
+}
+.main-cont {
+  margin-left: 90px;
+  padding: 0px;
+}
